@@ -1,0 +1,90 @@
+* { 
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body {background-color:#ebd2c2;
+padding: 20px;
+width: auto;
+display: flex;
+flex-direction: column;
+}
+
+img {
+    width: 200px;
+    height: 230px;
+    border-radius: 50%; 
+    margin-top: 30px; /* area around the image*/
+     /* area around the image*/
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+ }
+
+ .main-header {
+    display: flex;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px;
+  background: #8c8d8c;
+  color: #fff;
+  width: 100%;
+  }
+
+ a {
+    color: black; /*color of link text*/
+    padding: 16px; /*room around link*/
+    margin-bottom:10px; /* around the element*/
+    width: 95%; /*width of the link bar*/
+    text-align: center; 
+    text-decoration: none; /*to remove line under text*/
+    font-size: 18px;
+    border: 2px solid black;
+    box-shadow: 6px 6px 0px black; /*the shadow around my box*/
+}
+
+ .card {
+    border-style: none;
+    border-width: 10px;
+    padding: 5px;
+    float: left;
+    width: 20%;
+  }
+  
+  .card header {
+    padding: 10px;
+  }
+  
+  .card p {
+    text-align:left;
+  }
+  
+  .card img {
+    width: 90%;
+  }
+
+  p {
+    float: right;
+    font-size: 16px;
+  }
+
+a:hover {
+    box-shadow: none;
+    transform: translate(8px, 8px);
+}
+
+.beige {
+    background:#d4bbb1;
+}
+.offbeige {
+    background:#96AD90;
+}
+
+.brown {
+    background:rgb(245, 237, 222);
+}                                                               
