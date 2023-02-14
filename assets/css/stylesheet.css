@@ -5,6 +5,7 @@
     font-family: Consolas,"courier new";
     
 }
+
 body {background-color:#ebd2c2;
 padding: 20px;
 width: auto;
@@ -13,11 +14,13 @@ flex-direction: column;
 }
 
 img {
-     width: 270px;
-     height: 315px;
-     border-radius: 50%; /*makes it rounder*/
-     margin-top: 50px; /* area around the image*/
-     margin-left: 25%; /* area around the image*/
+  width: 270px;
+  height: 315px;
+  border-radius: 50%;/*makes this rounder*/
+  margin-top: 50px; /*area top of image*/
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 h1 {
@@ -36,30 +39,22 @@ h1 {
   color: #fff;
   width: 100%;
   }
- a {
-    color: black; /*color of link text*/
-    margin-bottom:10px; /* around the element*/
-    width: 95%; /*width of the link bar*/
-    text-align: center; 
-    text-decoration: none; /*to remove line under text*/
-    font-size: 18px;
-    border: 2px solid black;
-    box-shadow: 6px 6px 0px black; /*the shadow around my box*/
-}
 
-ul {
-  list-style-type: none;
-  margin: 10;
-  padding: 15;
-  width: 50px;
+a {
+  color: black; /*color of link text*/
+  margin-bottom:10px; /* around the element*/
+  width: 100%; /*width of the link bar*/
+  text-align: center; 
+  text-decoration: none; /*to remove line under text*/
+  font-size: 50px;
+  border: 2px solid black;
+  box-shadow: 6px 6px 0px black; /*the shadow around my box*/
 }
-
  .card {
     border-style: none;
     border-width: 10px;
     padding: 5px;
     float: left;
-    width: 20%;
   }
   
   .card header {
@@ -77,6 +72,7 @@ ul {
   p {
     float: right;
     font-size: 16px;
+    padding: 25px;
   }
 
 a:hover {
