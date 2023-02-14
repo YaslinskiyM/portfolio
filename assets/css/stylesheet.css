@@ -13,6 +13,13 @@ display: flex;
 flex-direction: column;
 }
 
+section nav {
+border: red 1px solid;
+display:flex; /* will shift boxes evenly*/
+
+
+}
+
 img {
   width: 270px;
   height: 315px;
