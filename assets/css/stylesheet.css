@@ -1,5 +1,5 @@
 * { 
-    margin: 0;
+    margin: 5px;
     padding:0;
     box-sizing: border-box;
     font-family: Consolas,"courier new";
@@ -63,6 +63,7 @@ nav a, footer a {
     border-width: 10px;
     padding: 5px;
     float: left;
+    width: 30%;
   }
   
   .card header {
@@ -71,10 +72,6 @@ nav a, footer a {
   
   .card p {
     text-align:left;
-  }
-  
-  .card {
-    width: 30%;
   }
 
   p {
