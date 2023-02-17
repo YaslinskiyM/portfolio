@@ -14,6 +14,7 @@ Projects: Here you can see some of the projects that I have worked on in the pas
 Contact: If you want to get in touch with me, you can do so via the contact page. You will find my email and social media links.
 
 Visuals image
+![image](https://user-images.githubusercontent.com/107730204/219561862-84c903d9-7805-4fd3-80aa-2849f4ac5d57.png)
 
 
 
