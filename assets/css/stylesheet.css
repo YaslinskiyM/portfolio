@@ -1,12 +1,12 @@
-* { 
-    margin: 5px;
-    padding:0;
+* { /*the below styling will apply to the page unless other marked with ID's/classes */
+    margin: 5px; /*area around of image*/
+    padding:0; /*space between content and border*/
     box-sizing: border-box;
     font-family: Consolas,"courier new";
     
 }
 
-body {background-color:#ebd2c2;
+body {background-color:#ebd2c2; /*anything in the body section will include the below unless otherwise marked with an ID or class*/
 padding: 20px;
 width: auto;
 display: flex;
@@ -14,13 +14,20 @@ flex-direction: column;
 }
 
 section nav {
-border: red 1px solid;
 display:flex; /* will shift boxes evenly*/
-
-
 }
 
-article img {
+section div img { /*the below styling will apply to images in a section in side a div*/
+  border-style: none;
+  border-width: 10px;
+  padding: 5px;
+  width: 80%;
+  margin-left: auto;
+  margin-left: auto;
+}
+
+
+article img { /* any image that inside an article will have the below*/
   width: 270px;
   height: 315px;
   border-radius: 50%;/*makes this rounder*/
@@ -30,7 +37,7 @@ article img {
   display: block;
 }
 
-h1 {
+h1 { /*any h1 font*/
     font-size: 75px;
     text-align: center;
     font-family: Consolas,"courier new";
@@ -41,13 +48,13 @@ h1 {
   /* Forces elements to the next line if they don't fit */
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 60px;
+  padding: 60px; /*space between content and border*/
   background: #8c8d8c;
   color: #fff;
   width: 100%;
   }
 
-nav a, footer a {
+nav a, footer a { /*both of these will have the below styling*/
   color: black; /*color of link text*/
   margin-bottom:10px; /* around the element*/
   width: 100%; /*width of the link bar*/
@@ -62,7 +69,6 @@ nav a, footer a {
     border-style: none;
     border-width: 10px;
     padding: 5px;
-    float: left;
     width: 30%;
   }
   
@@ -74,17 +80,17 @@ nav a, footer a {
     text-align:left;
   }
 
-  p {
-    float: right;
+  p { /*all paragraphs will be styled with the below*/
+    float: right; /*places an element on the left or right side of its container*/
     font-size: 16px;
-    padding: 35px;
+    padding: 35px; /* space around the elements content*/
   }
 
-a:hover {
+a:hover { /*this chnge will occur when we hover over the text with this element */
     box-shadow: none;
     transform: translate(8px, 8px);
 }
 
-.beige {
+.beige { /*anything with this tag will have a background color of the below*/
     background:#d4bbb1;
-}                                                            
+}
