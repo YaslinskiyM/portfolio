@@ -65,3 +65,16 @@ a:hover {
 .brown {
     background:rgb(245, 237, 222);
 } 
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .card {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 18rem;
+  }

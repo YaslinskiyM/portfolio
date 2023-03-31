@@ -94,3 +94,21 @@ a:hover { /*this chnge will occur when we hover over the text with this element 
 .beige { /*anything with this tag will have a background color of the below*/
     background:#d4bbb1;
 }
+
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+ /** margin-right: -15px;
+  margin-left: -15px;**/
+  justify-content: space-between;
+  margin-right: auto;
+  
+}
+
+.card {
+ /** margin-right: 5px;**/
+  margin-bottom: 1rem;
+  width: 18rem;
+  height: 22rem;
+}
